@@ -182,4 +182,15 @@
       }
     }
   }
+
+  // Estilos para los enlaces
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &.blanco {
+      color: white;
+    }
+  }
 }

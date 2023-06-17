@@ -70,19 +70,16 @@ $categorias-secondary-color: gray;
       &:hover {
         text-decoration: underline;
       }
-    }
-  }
 
-  a {
-    display: block;
-    font-size: 18px;
-    color: $categorias-primary-color;
-    font-weight: bold;
-    margin-top: 40px;
-    text-decoration: none;
+      &.pedido-whatsapp {
+        color: blue;
+        /* Agrega otros estilos según sea necesario */
+      }
 
-    &:hover {
-      text-decoration: underline;
+      &.home-link {
+        color: red;
+        /* Agrega otros estilos según sea necesario */
+      }
     }
   }
 }
